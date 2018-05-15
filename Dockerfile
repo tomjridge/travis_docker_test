@@ -56,4 +56,5 @@ RUN eval `opam config env` && make -C tjr_btree/test_bin all run_tests
 RUN eval `opam config env` && make -C tjr_btree/examples all run_examples
 
 
-# comment
+# check what versions were installed
+RUN eval `opam config env` && ocamlfind list
