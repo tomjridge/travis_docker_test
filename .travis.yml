@@ -3,7 +3,7 @@ services:
   - docker
 
 script:
-  - docker build --tag myimage .
+   - make
 
 after_script:
   - docker images
