@@ -14,4 +14,3 @@ opam pin add -y -n tjr_pcache https://github.com/tomjridge/tjr_pcache.git
 opam pin add -y -n tjr_pcache_example https://github.com/tomjridge/tjr_pcache.git
 opam install -y tjr_btree tjr_btree_examples tjr_lru_cache tjr_pcache
 
-# NOTE this only installs dependencies at the moment
